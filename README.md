@@ -147,3 +147,13 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
 4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
 5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+
+## 🙏 Agradecimentos
+- DIO
+- Bradesco
+- Prof. Venilton Falvo Jr - Bootcamp GenAI DIO/Bradesco - Módulo : Desafio Final
+
+## Autor
+- Marcus Guedes
+- Linkedin : https://www.linkedin.com/in/marcusguedes/
+- GitHub : https://github.com/MCLG1661 
