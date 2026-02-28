@@ -151,7 +151,7 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 ## 🙏 Agradecimentos
 - DIO
 - Bradesco
-- Prof. Venilton Falvo Jr - Bootcamp GenAI DIO/Bradesco - Módulo : Desafio Final
+- Prof. Venilton Falvo Jr - Bootcamp GenAI - Módulo : Desafio Final
 
 ## Autor
 - Marcus Guedes
