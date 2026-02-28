@@ -51,7 +51,7 @@ with open('data/produtos_finaceiros.json', 'r', encoding='utf-8') as f:
 > Os dados vão no system prompt ? São consultados dinamicamente ?
 
 ```text
-Dados do Cliente e Perfil (JSON) :
+Dados do Cliente e Perfil (data/perfil_investidor.json) :
 {
   "nome": "João Silva",
   "idade": 32,
@@ -76,7 +76,7 @@ Dados do Cliente e Perfil (JSON) :
   ]
 }
 
-Transacoes do Cliente (CSV) :
+Transacoes do Cliente (data/transacoes.csv) :
 data	descricao	categoria	valor	tipo
 2025-10-01	Salário	receita	5000.00	entrada
 2025-10-02	Aluguel	moradia	1200.00	saida
@@ -89,7 +89,7 @@ data	descricao	categoria	valor	tipo
 2025-10-20	Academia	saude	99.00	saida
 2025-10-25	Combustível	transporte	250.00	saida
 
-Historico de atendimento do Cliente (CSV) :
+Historico de Atendimento do Cliente (data/historico_atendimento.csv) :
 data	canal	tema	resumo	resolvido
 2025-09-15	chat	CDB	Cliente perguntou sobre rentabilidade e prazos	sim
 2025-09-22	telefone	Problema no app	Erro ao visualizar extrato foi corrigido	sim
@@ -97,7 +97,7 @@ data	canal	tema	resumo	resolvido
 2025-10-12	chat	Metas financeiras	Cliente acompanhou o progresso da reserva de emergência	sim
 2025-10-25	email	Atualização cadastral	Cliente atualizou e-mail e telefone	sim
 
-Produtos Disponiveis (JSON) :
+Produtos Disponiveis (data/produtos_financeiros.json) :
 
 
 ```
