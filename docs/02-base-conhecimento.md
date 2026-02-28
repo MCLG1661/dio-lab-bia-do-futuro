@@ -50,6 +50,8 @@ with open('data/produtos_finaceiros.json', 'r', encoding='utf-8') as f:
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt ? São consultados dinamicamente ?
 
+Para simplificar, podemos simplesmente "injetar" os dados em nosso prompt, garantindo que o Agente tenha o melhor contexto possível. Lembrando que, em soluções mais robustas, o ideal é que essas informações sejam carregadas dinâmicamente para que possamos ganhar flexibilidade.     
+
 ```text
 Dados do Cliente e Perfil (data/perfil_investidor.json) :
 {
