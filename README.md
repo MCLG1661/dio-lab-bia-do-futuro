@@ -1,8 +1,8 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 💰 Agente Financeiro Inteligente com IA Generativa
 
 ## Contexto
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+Os assistentes virtuais no setor, estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, idealizar e prototipar um agente financeiro que utiliza IA Generativa para :
 
 - **Antecipar necessidades** ao invés de apenas responder perguntas
 - **Personalizar** sugestões com base no contexto de cada cliente
