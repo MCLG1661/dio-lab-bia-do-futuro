@@ -51,11 +51,12 @@ with open('data/produtos_finaceiros.json', 'r', encoding='utf-8') as f:
 > Os dados vão no system prompt ? São consultados dinamicamente ?
 
 ```text
-Dados do Cliente :
+Dados do Cliente e Perfil :
 
-Perfil do Cliente :
 
 Transacoes do Cliente :
+
+Historico de atendimento do Cliente :
 
 Produtos Disponiveis :
 
