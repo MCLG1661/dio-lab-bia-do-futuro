@@ -57,7 +57,6 @@ flowchart TD
     C --> D[JSON/CSV com dados do cliente]
     D --> C
     C --> E[Checagem de alucinações]
-   4. Protocolo "Não sei"]
     E --> F[Resposta Personalizada:
    - Educativa
    - Contextualizada
