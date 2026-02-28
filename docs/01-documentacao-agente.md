@@ -52,12 +52,27 @@ Formal, acessível e didático como um professorpaicular.
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
+    A[Cliente] -->|Mensagem| B[Interface - Chat Web/App]
+    B --> C[[LLM + Persona Sr. Orçamento
+   - Tom formal/consultivo
+   - Educação financeira
+   - Persistência de contexto]
+    C --> D[Base de Conhecimento:
+   - FAQs oficiais
+   - Tabelas de produtos
+   - Regras de IR
+   - Documentos da instituição
+   - NÃO contém: opiniões, previsões]
     D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
+    C --> E[Validação:
+   1. Anti-jailbreak
+   2. Similaridade > 75%?
+   3. Tópico permitido?
+   4. Protocolo "Não sei"]
+    E --> F[Resposta Personalizada:
+   - Educativa
+   - Contextualizada
+   - Com opções/next steps]
 ```
 
 ### Componentes
@@ -75,10 +90,10 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] O Agente só responde com base nos dados fornecidos
+- [ ] Respostas incluem fonte da informação
+- [ ] Quando não sabe, admite e redireciona
+- [ ] Não faz recomendações de investimento sem perfil do cliente
 
 ### Limitações Declaradas
 > O que o agente NÃO faz ?
