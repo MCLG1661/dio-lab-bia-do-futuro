@@ -31,18 +31,12 @@ Os assistentes virtuais nesse setor, estão evoluindo de simples chatbots reativ
 
 ### 2. 📚 Base de Conhecimento
 
-**Dados Mockados** disponíveis na pasta [`data/`](./data/) para alimentar o agente :
-
-| Arquivo | Formato | Descrição |
+| Arquivo | Formato | Para que serve no Edu ? |
 |---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Quer um dataset mais robusto ? Utilize o https://huggingface.co/, que possui diversos datasets públicos relacionados a finanças.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
+| `transacoes.csv` | CSV | Analisar o histórico de transações e usar essas informações de forma a alertar ou orientar o cliente |
+| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores, ou seja, dar continuidade ao atendimento de forma mais eficiente  |
+| `perfil_investidor.json` | JSON | Personalizar as recomendações e explicações sobre as dúvidas e as necessidades de aprendizado do cliente |
+| `produtos_financeiros.json` | JSON | Conhecer os produtos e serviços disponíveis para que eles possam ser explicados e recomendados ao cliente |
 
 ---
 
