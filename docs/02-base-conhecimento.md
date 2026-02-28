@@ -18,9 +18,9 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 ## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
+Você modificou ou expandiu os dados mockados ? 
 
-[Sua descrição aqui]
+A Base de Dados não foi modificada e nem expandida.
 
 ---
 
@@ -28,6 +28,8 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+
+ Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, Crtl + V) ou carregar via código, como no exemlo abaixo.
 
 ```python
 import pandas as pd
@@ -46,10 +48,18 @@ with open('data/produtos_finaceiros.json', 'r', encoding='utf-8') as f:
 ```
 
 ### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
+> Os dados vão no system prompt ? São consultados dinamicamente ?
 
-[Sua descrição aqui]
+```text
+Dados do Cliente :
 
+Perfil do Cliente :
+
+Transacoes do Cliente :
+
+Produtos Disponiveis :
+
+```
 ---
 
 ## Exemplo de Contexto Montado
