@@ -52,15 +52,12 @@ Formal, acessível e didático como um professorpaicular.
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Chatbot em Streamlit]
+    A[Cliente] -->|Mensagem| B[Streamlit]
     B --> C[GPT-4 via API]
     C --> D[JSON/CSV com dados do cliente]
     D --> C
     C --> E[Checagem de alucinações]
-    E --> F[Resposta Personalizada:
-   - Educativa
-   - Contextualizada
-   - Com opções/next steps]
+    E --> F[Educativa, Contextualizada, Com opções/next steps]
 ```
 
 ### Componentes
