@@ -40,7 +40,7 @@ Os assistentes virtuais nesse setor, estão evoluindo de simples chatbots reativ
 | `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
 | `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
 
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
+Quer um dataset mais robusto ? Você pode utilizar o Huggin Face, que possui datasets públicos relacionados a finanças.
 
 📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 
