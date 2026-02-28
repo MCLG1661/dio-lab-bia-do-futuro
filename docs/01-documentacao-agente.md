@@ -52,22 +52,11 @@ Formal, acessível e didático como um professorpaicular.
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface - Chat Web/App]
-    B --> C[[LLM + Persona Sr. Orçamento
-   - Tom formal/consultivo
-   - Educação financeira
-   - Persistência de contexto]
-    C --> D[Base de Conhecimento:
-   - FAQs oficiais
-   - Tabelas de produtos
-   - Regras de IR
-   - Documentos da instituição
-   - NÃO contém: opiniões, previsões]
+    A[Cliente] -->|Mensagem| B[Interface - Chatbot em Streamlit]
+    B --> C[LLM - GPT-4 via API]
+    C --> D[Base de Conhecimento - JSON/CSV com dados do cliente]
     D --> C
-    C --> E[Validação:
-   1. Anti-jailbreak
-   2. Similaridade > 75%?
-   3. Tópico permitido?
+    C --> E[Validação - Checagem de alucinações]
    4. Protocolo "Não sei"]
     E --> F[Resposta Personalizada:
    - Educativa
