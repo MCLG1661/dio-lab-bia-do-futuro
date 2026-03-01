@@ -1,4 +1,4 @@
-# Base de Conhecimento
+# 📚 Base de Conhecimento
 
 ## Dados Utilizados
 
@@ -26,7 +26,7 @@ A Base de Dados não foi modificada e nem expandida.
 
 ## Estratégia de Integração
 
-### Como os dados são carregados?
+### 🧩 Como os dados são carregados ?
 > Descreva como seu agente acessa a base de conhecimento.
 
  Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, Crtl + V) ou carregar via código, como no exemlo abaixo.
@@ -47,7 +47,7 @@ with open('data/produtos_finaceiros.json', 'r', encoding='utf-8') as f:
    produtos = json.load(f) 
 ```
 
-### Como os dados são usados no prompt?
+### 💬 Como os dados são usados no prompt ?
 > Os dados vão no system prompt ? São consultados dinamicamente ?
 
 Para simplificar, podemos simplesmente "injetar" os dados em nosso prompt, garantindo que o Agente tenha o melhor contexto possível. Lembrando que, em soluções mais robustas, o ideal é que essas informações sejam carregadas dinâmicamente para que possamos ganhar flexibilidade.     
@@ -146,7 +146,7 @@ Produtos Disponiveis (data/produtos_financeiros.json) :
 ```
 ---
 
-## Exemplo de Contexto Montado
+## 📝 Exemplo de Contexto Montado
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
